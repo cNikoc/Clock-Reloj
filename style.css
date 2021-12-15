@@ -1,13 +1,16 @@
+body {background: #000;}
+
 .clock {
+	color: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background: url(madera.png);
 	width: 10em;
 	height: 2em;
-	margin: 70px auto; 
+	margin: -10px auto; 
 	border-radius: 20px;
-	box-shadow: 0 0 25px 0 #555;
+	box-shadow: 0 0 25px 0 #666;
 	text-shadow: 0 0 10px #fff, 0 0 10px #fff;
 	font-size: 50px;
 	font-family: monospace;

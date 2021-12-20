@@ -21,16 +21,16 @@ body {background: #222;}
 
 @media screen and (max-width: 415px) {
 
-	body {
-		background: #222;
-		background: #18e;
-		display: flex;
-		justify-content: center;
-	}
+body {
+	background: #222;
+	background: #18e;
+	display: flex;
+	justify-content: center;
+}
 	
-	.clock {
-		transform: scale(70%);
-		margin: 4rem auto;
-	}
+.clock {
+	transform: scale(70%);
+	margin: 4rem auto;
+}
 	
-	}
+}

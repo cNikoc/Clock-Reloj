@@ -1,4 +1,4 @@
-body {background: #000;}
+body {background: #222;}
 
 .clock {
 	color: #fff;
@@ -17,4 +17,20 @@ body {background: #000;}
 	letter-spacing: 7px;
 	user-select: none;
 	cursor: none;
+}
+
+@media screen and (max-width: 415px) {
+
+body {
+	background: #222;
+	background: #18e;
+	display: flex;
+	justify-content: center;
+}
+
+.clock {
+	transform: scale(70%);
+	margin: 4rem auto;
+}
+
 }

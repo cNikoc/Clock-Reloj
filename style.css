@@ -1,4 +1,4 @@
-body {background: #222; background: red;}
+body {background: #222;}
 
 .clock {
 	color: #fff;
@@ -22,8 +22,7 @@ body {background: #222; background: red;}
 @media screen and (max-width: 415px) {
 
 body {
-	background: #222;
-	background: #18e;
+	background: #000;
 	display: flex;
 	justify-content: center;
 }
